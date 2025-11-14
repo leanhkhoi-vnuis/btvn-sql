@@ -1,0 +1,8 @@
+CREATE DATABASE CompanyDB;
+USE CompanyDB;
+
+CREATE TABLE bang (
+    EmployeeID INT AUTO_INCREMENT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50)
+);
